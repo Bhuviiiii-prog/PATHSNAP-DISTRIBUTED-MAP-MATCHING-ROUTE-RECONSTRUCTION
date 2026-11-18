@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "features": [
+    "dist",
+    "dist_rank",
+    "bearing_diff",
+    "seg_len",
+    "speed",
+    "n_cand_30m"
+  ],
+  "cv": "GroupKFold(3) by trip",
+  "train_point_stride": 4
+}
