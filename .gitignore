@@ -1,0 +1,11 @@
+.venv/
+data/raw/
+data/processed/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+__MACOSX/
+.claude/
+Claude outputs/
+docs/
+share/
