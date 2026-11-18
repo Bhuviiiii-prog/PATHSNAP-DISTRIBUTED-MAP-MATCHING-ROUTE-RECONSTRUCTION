@@ -1,0 +1,21 @@
+{
+  "train": {
+    "trips": 78,
+    "points": 183260,
+    "rows": 1466080,
+    "K": 8,
+    "candidate_miss_rate": 0.025870348139255706,
+    "dropped_trips": [
+      "00000033",
+      "00000054"
+    ]
+  },
+  "student_test": {
+    "trips": 10,
+    "points": 19160,
+    "rows": 153280,
+    "K": 8,
+    "candidate_miss_rate": 0.01831941544885174,
+    "dropped_trips": []
+  }
+}
