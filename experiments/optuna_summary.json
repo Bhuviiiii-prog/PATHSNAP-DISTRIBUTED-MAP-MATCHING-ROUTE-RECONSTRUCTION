@@ -1,0 +1,22 @@
+{
+  "search_space": {
+    "learning_rate": "log-uniform [0.02, 0.3]",
+    "max_iter": "int [100, 400]",
+    "max_leaf_nodes": "int [8, 64]",
+    "min_samples_leaf": "int [20, 300]",
+    "l2_regularization": "log-uniform [1e-4, 10]"
+  },
+  "objective": "mean macro F1, GroupKFold(3) by trip, train only",
+  "sampler": "TPE",
+  "seed": 42,
+  "n_trials": 15,
+  "search_seconds": 86.06958103179932,
+  "best_params": {
+    "learning_rate": 0.025807726646633358,
+    "max_iter": 357,
+    "max_leaf_nodes": 59,
+    "min_samples_leaf": 22,
+    "l2_regularization": 0.00022280871676113597
+  },
+  "best_cv_macro_f1": 0.9316362363466739
+}
